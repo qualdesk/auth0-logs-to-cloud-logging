@@ -89,6 +89,7 @@ const connectLogs = opts => {
       }
 
       resolve({
+        startingCheckpointId: checkpointId,
         checkpointId: lastCheckpointId,
         logsProcessed: logsProcessed,
         limits: lastLimits

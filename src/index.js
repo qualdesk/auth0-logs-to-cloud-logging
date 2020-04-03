@@ -55,6 +55,7 @@ const connectLogs = (opts) => {
       if (logger) { logger.debug('No more logs to write') }
 
       resolve({
+        startingCheckpointId: checkpointId,
         checkpointId: lastCheckpointId,
         logsProcessed: logsProcessed,
         limits: lastLimits

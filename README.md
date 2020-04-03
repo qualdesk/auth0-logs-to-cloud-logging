@@ -77,9 +77,10 @@ because the request limit has been reached.
 
 ```
 {
-  checkpointId: '...',      // string with ID of last fetched log entry
-  logsProcessed: 0,         // number of log entries processed
-  limits: {                 // returned from Auth0 library representing API limits
+  startingCheckpointId: '...',  // ID of the starting checkpoint
+  checkpointId: '...',          // string with ID of last fetched log entry
+  logsProcessed: 0,             // number of log entries processed
+  limits: {                     // returned from Auth0 library representing API limits
     limit: '50',
     remaining: '48',
     reset: '1585823889',
