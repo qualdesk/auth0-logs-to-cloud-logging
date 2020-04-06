@@ -1,6 +1,6 @@
 {
   "name": "auth0-logs-to-cloud-logging",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A connector that fetches logs from Auth0 and uploads them to Google Cloud Logging",
   "main": "dist/index.js",
   "scripts": {
